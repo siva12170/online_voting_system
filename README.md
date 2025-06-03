@@ -69,9 +69,9 @@ The admin dashboard should now be accessible at `http://localhost:3000`.
 
 ---
 
-## 🌍 Live Demo
+## 🌍 Live Demo 
 The admin panel is **deployed on Render** and can be accessed [here](https://votebharat-admin.onrender.com/login).
-
+The user panel is **deployed on Vercel** and can be accessed [here](https://vote-bharat.vercel.app/).
 ---
 
 🔥 **Empowering Democracy with Technology!** 🗳️
