@@ -40,7 +40,7 @@ Ensure you have the following installed:
 
 ### **Clone the Repository**
 ```bash
- git clone -b frontend https://github.com/LohithReddyy/VoteBharat.git
+ git clone -b frontend https://github.com/siva12170/online_voting_system.git
  cd VoteBharat/frontend
 ```
 
