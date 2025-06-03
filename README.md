@@ -1,34 +1,77 @@
-# Online-Voting-System
-It is an online voting  system in which you can vote for your preferred party and live count of votes(total / each individual party) is shown.<br>
-<h1>Some features of this project</h1>
-1.You have to be logged in to vote<br>
-2.You cannot vote twice<br>
-3.Used bcrypt to safeguard all the details of the user so that even the admin does not know who has voted <br>
+# 🗳️ VoteBharat - Admin Panel
 
-<h1>Tech Stack Used </h1>
-1.React <br>
-2.Nodejs <br>
-3. Express js<br>
-4. Mongoose<br>
+Welcome to the **Admin Panel** of **VoteBharat**, a secure and efficient **Online Voting System** built using the **MERN Stack**. This branch focuses on the **administrative functionalities**, empowering admins to oversee the voting process, manage users, and maintain election integrity.
 
-<h1>Packages used</h1>
-<h2>Front End </h2>
-1. styled component<br>
+---
 
-<h2>Backend</h2>
-1. bcrypt<br>
-2. cookie-parser<br>
-3. dotenv<br>
-4. express<br>
-5. jsonwebtokens<br>
-6. mongoose<br>
+## 🚀 Tech Stack
 
+### **Frontend (Admin Dashboard)**
+- **React.js** - For building an interactive and dynamic admin interface
+- **Tailwind CSS** - Modern styling for a responsive UI
 
-<h1>How to run this project </h1>
-Steps:
-1. Download the project<br>
-2. create your .env file in your backend and declare two variables there "DB_URI" equals to your database string and another one "SECRET_KEY" equals to any random string of 32 alphabets <br>
-3. on one side run the backend by typing in the console "npm run dev" <br>
-4. on the other side run the frontend by typing in the console "npm start"<br>
+### **Backend (API & Database)**
+- **Node.js & Express.js** - Backend logic and API endpoints
+- **MongoDB & Mongoose** - Database for storing election data securely
+- **JWT Authentication** - Secure admin login
 
-And this is it..you are all set to go.
+### **Deployment**
+- **Render** - Deployed the admin panel for real-time access
+- **GitHub** - Version control and collaboration
+
+---
+
+## 📌 Features of Admin Panel
+
+✅ **Manage Elections** - Create, update, and delete elections dynamically
+
+✅ **Candidate Management** - Approve, reject, or modify candidate details
+
+✅ **Voter Management** - Verify and manage registered voters
+
+✅ **Monitor Votes** - Real-time tracking of votes and results
+
+✅ **Security Measures** - Authentication, role-based access control, and fraud prevention
+
+---
+
+## 🎯 How to Run Admin Panel Locally
+
+### **Prerequisites**
+Ensure you have the following installed:
+- Node.js (v16+)
+- MongoDB
+- Git
+
+### **Clone the Repository**
+```bash
+ git clone -b admin https://github.com/LohithReddyy/VoteBharat.git
+ cd VoteBharat/admin
+```
+
+### **Install Dependencies**
+```bash
+ npm install
+```
+
+### **Set Up Environment Variables**
+Create a `.env` file in the root directory and add the necessary configurations:
+```env
+ REACT_APP_API_URL=http://localhost:5000
+ JWT_SECRET=your-secret-key
+```
+
+### **Run the Application**
+```bash
+ npm start
+```
+The admin dashboard should now be accessible at `http://localhost:3000`.
+
+---
+
+## 🌍 Live Demo
+The admin panel is **deployed on Render** and can be accessed [here](https://votebharat-admin.onrender.com/login).
+
+---
+
+🔥 **Empowering Democracy with Technology!** 🗳️

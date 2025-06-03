@@ -2,24 +2,28 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "server": "nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "b": "^2.0.1",
-    "bcrypt": "^5.0.1",
-    "cookie-parser": "^1.4.6",
+    "backend": "file:",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "crypt": "^0.0.2",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.2",
-    "hbs": "^4.2.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.0",
-    "validator": "^13.7.0"
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.9.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "validator": "^13.12.0"
   }
 }
